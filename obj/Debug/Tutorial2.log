@@ -1,0 +1,32 @@
+﻿Build started 13.03.2016 00:13:34.
+     1>Project "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\Tutorial2.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\) contains files shared from another project (Tutorial2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"dependencies\DevIL\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_WINDOWS" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\\" /Fd"C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\AnimatedSprite.cpp src\AnimFileLoader.cpp src\Application.cpp "src\Image.cpp" "src\ImageList.cpp" src\Main.cpp src\MainWindow.cpp src\Texture.cpp src\TextureManager.cpp
+         TextureManager.cpp
+         Texture.cpp
+         MainWindow.cpp
+         Main.cpp
+         ImageList.cpp
+         Image.cpp
+         Application.cpp
+         AnimFileLoader.cpp
+         AnimatedSprite.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\bin\Knight Antalya.exe" /INCREMENTAL /NOLOGO /LIBPATH:"dependencies\DevIL\lib" opengl32.lib "DevIL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\bin\Knight Antalya.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\bin\Knight Antalya.lib" /MACHINE:X86 /SAFESEH "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\AnimatedSprite.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\AnimFileLoader.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\Application.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\Image.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\ImageList.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\Main.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\MainWindow.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\Texture.obj"
+         "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\obj\Debug\TextureManager.obj"
+     1>AnimatedSprite.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Tutorial2.vcxproj -> C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\\bin\Knight Antalya.exe
+     1>Done Building Project "C:\Users\ibrahimsamed\Desktop\projeler aselsan\1. oyun projesi\proje kodları\Tutorial2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.20
